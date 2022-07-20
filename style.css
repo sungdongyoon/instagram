@@ -138,9 +138,9 @@ i{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     text-align: center;
-    font-size: 15px;
+    font-size: 5vw;
 
-    height: 30px;
+    height: 8vw;
 }
 
 .selected{
