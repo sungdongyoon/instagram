@@ -1,5 +1,5 @@
-.highlight{
-    border: solid;
+body{
+    font-size: 3vw;
 }
 
 .thumbnail_grid{
@@ -36,13 +36,13 @@
 }
 
 #profile_pic{
-    width: 50px;
-    height: 50px;
+    width: 15vw;
+    height: 15vw;
 }
 
 .highlight_pic{
-    width: 35px;
-    height: 35px;
+    width: 10vw;
+    height: 10vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +50,7 @@
 
 #highlight_area{
     display: grid;
-    grid-template-columns: 45px 45px 1fr;
+    grid-template-columns: 12vw 12vw 1fr;
 }
 
 .highlight{
@@ -65,19 +65,19 @@
 #profile_info{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 50px;
+    height: 15vw;
 }
 
 #id{
-    font-size: 18px;
+    font-size: 6vw;
     font-weight: 100;
 }
 
 button{
     height: 80%;
-    width: 95px;
+    width: auto;
 
-    font-size: 10px;
+    font-size: 3vw;
     background-color: white;
     border: solid gray 1px;
     border-radius: 3px;
@@ -86,10 +86,10 @@ button{
 #top{
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
-    height: 30px;
-
+    height: 6w;
+    min-height: 6vw;
     border-bottom: solid gray 0.1px;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
     padding-bottom: 30px;
 }
 
@@ -102,7 +102,7 @@ button{
 }
 
 #top input{
-    height: 30px;
+    height: 60px;
     width: 500px;
 
     margin-left: auto;
@@ -116,7 +116,7 @@ button{
     border: solid gray 1px;
     border-radius: 5px;
 
-    font-size: 10px;
+    font-size: 3vw;
     font-weight: 100;
 }
 
@@ -125,12 +125,12 @@ i{
 }
 
 #top i{
-    font-size: 14px;
+    font-size: 4vw;
 }
 
 #top div{
     text-align: center;
-    padding-top: 6px;
+    padding-top: 3vw;
 }
 
 #sub_icons{
